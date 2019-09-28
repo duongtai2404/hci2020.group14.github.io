@@ -48,29 +48,10 @@ p {
 
 .primary-blue-button a {
 	display: inline-block;
-	width: 28px;
-	height: 28px;
-	line-height: 28px;
-	text-align: center;
-	background-color: #33c1cf;
-	border-radius: 50%;
-	color: #fff;
-	font-size: 15px;
-	transition: all 0.3s;
-}
-
-.wrapper-continue-button{
-	/*width:100vw;*/
-	/*height: 100px;*/
-	text-align: center;
-	margin-top: 70px;
-}
-
-.continue-button a {
-	display: inline-block;
 	background-color: #33c1cf;
 	font-size: 13px;
 	padding: 12px 18px;
+	margin-bottom: 40px;
 	color: #fff;
 	font-weight: 500;
 	letter-spacing: 1px;
@@ -309,11 +290,11 @@ bootstrap.min.css:5
 
 #about .service-item p {
 	color: #fff;
-	margin-top: 20px;
+	margin-top: 30px;
 }
 
 #about .service-item .primary-blue-button {
-	margin-top: 20px;
+	margin-top: 35px;
 }
 
 
