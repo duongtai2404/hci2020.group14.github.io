@@ -293,8 +293,7 @@ bootstrap.min.css:5
 }
 
 #about .service-item h4 {
-	margin-bottom: 30px;
-	margin-top: 45px;
+line-height : 20px;
 	font-size: 17px;
 	font-weight: 500;
 	color: #fff;
@@ -308,6 +307,7 @@ bootstrap.min.css:5
 }
 
 #about .service-item p {
+	line-height : 5px;
 	color: #fff;
 	margin-top: 20px;
 }
