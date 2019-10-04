@@ -548,6 +548,10 @@ bootstrap.min.css:5
 	margin-top: 10px;
 }
 
+.link-groupdiary{
+	font-size: 21px;
+}
+
 .clearfix:after {
   content:"";
   display:table;
