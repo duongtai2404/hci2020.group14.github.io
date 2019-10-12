@@ -48,15 +48,16 @@ p {
 
 .primary-blue-button a {
 	display: inline-block;
-	width: 28px;
-	height: 28px;
+	width: 41px;
+	height: 41px;
 	line-height: 28px;
 	text-align: center;
-	background-color: #33c1cf;
+	background-color:  #ddd;
 	border-radius: 50%;
 	color: #fff;
 	font-size: 15px;
 	transition: all 0.3s;
+	padding-top: 5px;
 }
 
 .wrapper-continue-button{
@@ -314,6 +315,7 @@ line-height : 20px;
 
 #about .service-item .primary-blue-button {
 	margin-top: 20px;
+	padding-left: 20px;
 }
 
 

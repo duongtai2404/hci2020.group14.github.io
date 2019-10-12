@@ -556,9 +556,11 @@
 }
 .fa-twitter-square:before {
   content: "\f081";
+  color: #00aced;	
 }
 .fa-facebook-square:before {
   content: "\f082";
+  color: #3b5998;
 }
 .fa-camera-retro:before {
   content: "\f083";
@@ -626,10 +628,16 @@
 }
 .fa-twitter:before {
   content: "\f099";
+  color: #00aced;	
+  font-size: 3rem;
+
 }
 .fa-facebook-f:before,
 .fa-facebook:before {
   content: "\f09a";
+  color: #3b5998;
+  font-size: 3rem;
+ padding-left: 0px;
 }
 .fa-github:before {
   content: "\f09b";
@@ -1196,9 +1204,14 @@
 }
 .fa-youtube-square:before {
   content: "\f166";
+  color: #bb0000;
+  font-size: 3rem;
 }
 .fa-youtube:before {
   content: "\f167";
+  color: #bb0000;
+  font-size: 3rem;
+  padding-left: 0px;
 }
 .fa-xing:before {
   content: "\f168";
@@ -1208,6 +1221,8 @@
 }
 .fa-youtube-play:before {
   content: "\f16a";
+  color: #bb0000;
+  font-size: 3rem;
 }
 .fa-dropbox:before {
   content: "\f16b";
@@ -1364,6 +1379,9 @@
 }
 .fa-google:before {
   content: "\f1a0";
+  font-size: 3rem;
+  padding-left: 0px;
+   color: #3b5998;
 }
 .fa-reddit:before {
   content: "\f1a1";
@@ -1786,6 +1804,7 @@
 }
 .fa-facebook-official:before {
   content: "\f230";
+  color: #3b5998;
 }
 .fa-pinterest-p:before {
   content: "\f231";
@@ -2207,9 +2226,13 @@
 }
 .fa-user-circle:before {
   content: "\f2bd";
+  font-size: 3rem;
+  padding-right: 0px;
+   color: #212529;
 }
 .fa-user-circle-o:before {
   content: "\f2be";
+
 }
 .fa-user-o:before {
   content: "\f2c0";
@@ -2334,4 +2357,11 @@
   margin: 0;
   overflow: visible;
   clip: auto;
+}
+.connect-us ul {
+	padding-left: 20px;
+}
+.primary-blue-button{
+	padding-right: 15;
+
 }
