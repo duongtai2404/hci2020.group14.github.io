@@ -489,7 +489,7 @@ line-height : 20px;
 .tabs {
   list-style: none;
   margin-top: 20px;
-  padding-right: 70px;
+  /*padding-right: 70px;*/
 }
 
 .tabs li {
