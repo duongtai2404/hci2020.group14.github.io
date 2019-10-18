@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html>
     <head>
         <meta charset="utf-8">
@@ -26,7 +26,6 @@ http://www.templatemo.com/tm-506-tinker
         <link rel="stylesheet" href="css/owl-carousel.css">
         <link rel="stylesheet" href="css/templatemo-style.css">
         <link rel="stylesheet" href="css/lightbox.css">
-
         
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -70,30 +69,21 @@ http://www.templatemo.com/tm-506-tinker
     </div>
     <!--/.header-->
 
-    <div class="baner-content text-left" style="padding-top: 15vh;font-weight: 550;font-size: 14px;">
-    <section class="popular-course-area section-gap">
+
+    <div class="parallax-content baner-content" id="home">
         <div class="container">
-            <!-- start breadcrumb -->
-            <ul class="nav nav-tabs" role="tablist">
-                <li class="nav-item"><a class="nav-link active" style="color: #f7c552; font-size: 1.7rem" href="#week1" role="tab" >Requirement</a></li>
-                <li class="nav-item"><a class="nav-link" style="color: #f7c552; font-size: 1.7rem" href="#week2" role="tab" >Design</a></li>
-                <li class="nav-item"><a class="nav-link" style="color: #f7c552; font-size: 1.7rem" href="#week3" role="tab" >Implementation</a></li>
-            </ul>
-            <br> <br>
-            <!-- Tab panes -->
-            <div class="tab-content">
-                <div role="tabpanel" class="tab-pane active" id="week1">
-                    <div class="row d-flex justify-content-center mb-5">
-                        <div class="menu-content pb-10 col-lg-8" style="margin-top: -20px;">
-                            <div class="title text-center">
-                                <h1 class="mb-10" style="color: white">Requirement</h1>
-                                 <p style="color: white">Work day to day for success.</p>
-                            </div>
-                        </div>
-                    </div>
-					
-                    <table class="table table-bordered" style="color: #fcf8e3">
-                        <thead>
+         
+<button class="tablink" style="width: 200px; height: 50px; font-size :16px " onclick="openPage('Home', this, 'fd7e14')"id = "defaultOpen">Requiment</button>
+<button class="tablink"style="width: 200px; height: 50px; font-size :16px "  onclick="openPage('Design', this, 'fd7e14')">Design</button>
+<button class="tablink" style="width: 200px; height: 50px; font-size :16px	 " onclick="openPage('Contact', this, 'fd7e14')">Implement</button>
+<br><br>
+
+	
+
+<div id="Home" class="tabcontent">
+
+<table class="table table-bordered" style="color: #fcf8e3">
+								 <thead>
                             <tr>
                                 <th data-toggle="tooltip" title="Số thứ tự">STT</th>
                                 <th>Chức năng</th>
@@ -104,622 +94,21 @@ http://www.templatemo.com/tm-506-tinker
                                 <th>Trạng thái</th>
                             </tr>
                         </thead>
-                        <tbody>
-		
-                            <tr>
-                                <td>1</td>
-                                <td>Chức năng đăng nhập/đăng ký</td>
-                                <td>Đào Quang Nhật</td>
-                                <td>Đào Quang Nhật</td>
-                                <td>Đào Quang Nhật</td>
-                                <td>04/10 /2019 đến ....</td>
-                                <td> Bắt đầu</td>
-                            </tr>
-                            <!--
-                                <td>2</td>
-                                <td>Chức năng quản lý khuyến mãi</td>
-                                <td>Nguyễn Thị Thảo Nguyên</td>
-                                <td>Nguyễn Thị Thảo nguyên</td>
-                                <td>Nguyễn Thị Thảo nguyên</td>
-                                <td>26-9-2018 đến 10-10-2018</td>
-                                <td>Đã xong</td>
-                            </tr>
-                            <tr>
-                                <td>3</td>
-                                <td>Chức năng quản lý cập nhật tin tức</td>
-                                <td>Nguyễn Quang Trường</td>
-                                <td>Nguyễn Quang Trường</td>
-                                <td>Nguyễn Quang Trường</td>
-                                <td>26-9-2018 đến 15-10-2018</td>
-                                <td>Đã xong</td>
-                            </tr>
-                            <tr>
-                                <td>4</td>
-                                <td>Chức năng quản lý review của khách hàng</td>
-                                <td>Lê Hoàng Hữu Nghị</td>
-                                <td>Lê Hoàng Hữu Nghị</td>
-                                <td>Lê Hoàng Hữu Nghị</td>
-                                <td>26-9-2018 đến 15-10-2018</td>
-                                <td>Đã xong</td>
-                            </tr>
-                            <tr>
-                                <td>5</td>
-                                <td>Chức năng quản lý Contact</td>
-                                <td>Nguyễn Thị Thảo Nguyên</td>
-                                <td>Nguyễn Thị Thảo Nguyên</td>
-                                <td>Nguyễn Thị Thảo Nguyên</td>
-                                <td>26-9-2018 đến 15-10-2018</td>
-                                <td>Đã xong</td>
-                            </tr>
-                            <tr>
-                                <td>6</td>
-                                <td>Chức năng đặt sân nhanh</td>
-                                <td>Cả nhóm</td>
-                                <td>Nghị + Trường</td>
-                                <td>Nguyên + Vũ</td>
-                                <td>26-9-2018 đến 30-9-2018</td>
-                                <td>Đã xong</td>
-                            </tr>
-                            <tr>
-                                <td>7</td>
-                                <td>Chức năng quản lý đội đang chờ</td>
-                                <td>Nguyễn Hoàng Vũ</td>
-                                <td>Nguyễn Hoàng Vũ</td>
-                                <td>Nguyễn Hoàng Vũ</td>
-                                <td>26-9-2018 đến 30-10-2018</td>
-                                <td>Đã xong</td>
-                            </tr>
-                            <tr>
-                                <td>8</td>
-                                <td>Chức năng quản lý mời đội giao lưu</td>
-                                <td>Nguyễn Thị Thảo Nguyên</td>
-                                <td>Nguyễn Thị Thảo Nguyên</td>
-                                <td>Nguyễn Thị Thảo Nguyên</td>
-                                <td>26-9-2018 đến 30-10-2018</td>
-                                <td>Đã xong</td>
-                            </tr>
-                            <tr>
-                                <td>9</td>
-                                <td>Chức năng quản lý danh sách đội bóng</td>
-                                <td>Lê Hoàng Hữu Nghị</td>
-                                <td>Lê Hoàng Hữu Nghị</td>
-                                <td>Lê Hoàng Hữu Nghị</td>
-                                <td>26-9-2018 đến 30-10-2018</td>
-                                <td>Đã xong</td>
-                            </tr>
-                            <tr>
-                                <td>10</td>
-                                <td>Chức năng đặt sân trực tuyến</td>
-                                <td>Nguyễn Quang Trường</td>
-                                <td>Nguyễn Quang Trường</td>
-                                <td>Nguyễn Quang Trường</td>
-                                <td>26-9-2018 đến 30-10-2018</td>
-                                <td>Đã xong</td>
-                            </tr>
-                            <tr>
-                                <td>11</td>
-                                <td>Thống kê số lượng đặt sân nhanh</td>
-                                <td>Nguyễn Thị Thảo Nguyên</td>
-                                <td>Nguyễn Thị Thảo Nguyên</td>
-                                <td>Nguyễn Thị Thảo Nguyên</td>
-                                <td>30-10-2018 đến 25-11-2018</td>
-                                <td>Đã xong</td>
-                            </tr>
-                            <tr>
-                                <td>12</td>
-                                <td>Thống kê số lượng đặt sân trực tuyến</td>
-                                <td>Nguyễn Quang Trường</td>
-                                <td>Nguyễn Quang Trường</td>
-                                <td>Nguyễn Quang Trường</td>
-                                <td>30-10-2018 đến 25-11-2018</td>
-                                <td>Đã xong</td>
-                            </tr>
-                            <tr>
-                                <td>13</td>
-                                <td>Thống kê số lượng người dùng</td>
-                                <td>Nguyễn Hoàng Vũ</td>
-                                <td>Nguyễn Hoàng Vũ</td>
-                                <td>Nguyễn Hoàng Vũ</td>
-                                <td>30-10-2018 đến 25-11-2018</td>
-                                <td>đã xong</td>
-                            </tr>
-                            <tr>
-                                <td>14</td>
-                                <td>Thống kê doanh thu</td>
-                                <td>Lê Hoàng Hữu Nghị</td>
-                                <td>Lê Hoàng Hữu Nghị</td>
-                                <td>Lê Hoàng Hữu Nghị</td>
-                                <td>30-10-2018 đến 25-11-2018</td>
-                                <td>Đã xong</td>
-                            </tr>
-                            <tr>
-                                <td>15</td>
-                                <td>Thống kê số lượng sân bóng</td>
-                                <td>Nguyễn Thị Thảo Nguyên</td>
-                                <td>Nguyễn Thị Thảo Nguyên</td>
-                                <td>Nguyễn Thị Thảo Nguyên</td>
-                                <td>30-10-2018 đến 25-11-2018</td>
-                                <td>Đã xong</td>
-                            </tr>
-                            <tr>
-                                <td>16</td>
-                                <td>Error</td>
-                                <td>Nguyễn Hoàng Vũ</td>
-                                <td>Nguyễn Hoàng Vũ</td>
-                                <td>Nguyễn Hoàng Vũ</td>
-                                <td>20-11-2018 đến 25-11-2018</td>
-                                <td>Đã xong</td>
-                           !-->
-                        </tbody>
-                    </table>
-                </div>
-                <div role="tabpanel" class="tab-pane " id="week2">
-                    <div class="row d-flex justify-content-center">
-                        <div class="menu-content pb-10 col-lg-8" style="margin-top: -20px;">
-                            <div class="title text-center">
-                                <h1 class="mb-10">Design</h1>
-                                <p>Work day to day for success.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="accordion">
-                        <div class="card">
-                            <div class="card-header">
-                                <a class="card-link" data-toggle="collapse" href="#collapse0">
-                                    Thiết kế sơ lược trên giấy</a>
-                            </div>
-                            <div id="collapse0" class="collapse" data-parent="#accordion">
-                                <div class="card-body">
-                                    <div id="accordion1">
-                                        <div class="card">
-                                            <div class="card-header">
-                                                <a class="collapsed card-link" data-toggle="collapse" href="#collapse212">Trang tin tức</a>
-                                            </div>
-                                            <div id="collapse212" class="collapse show" data-parent="#accordion1">
-                                                <div class="card-body">
-                                                    <br> <br> <img class="img-fluid" src="Front-end/file_design-img/tttkg.jpg" alt="Chania" width="600" height="350"> <br>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card">
-                                            <div class="card-header">
-                                                <a class="collapsed card-link" data-toggle="collapse" href="#collapse213">Trang contact</a>
-                                            </div>
-                                            <div id="collapse213" class="collapse" data-parent="#accordion1">
-                                                <div class="card-body">
-                                                    <br> <br> <img class="img-fluid" src="Front-end/file_design-img/lh-tkg.jpg" alt="Chania" width="600" height="350"> <br>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card">
-                                            <div class="card-header">
-                                                <a class="collapsed card-link" data-toggle="collapse" href="#collapse214">Trang đăng ký, đăng nhập, quên mật khẩu</a>
-                                            </div>
-                                            <div id="collapse214" class="collapse" data-parent="#accordion1">
-                                                <div class="card-body">
-                                                    <br> <br> <img class="img-fluid" src="Front-end/file_design-img/dk-tkg.jpg" alt="Chania" width="330" height="400">
-                                                        <img class="img-fluid" src="Front-end/file_design-img/dn-tkg.jpg" alt="Chania" width="330" height="400">
-                                                        <img class="img-fluid" src="Front-end/file_design-img/tforgot-tkg.jpg" alt="Chania" width="330" height="400">
-                                                         <br>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card">
-                                            <div class="card-header">
-                                                <a class="collapsed card-link" data-toggle="collapse" href="#collapse215">Trang khuyến mãi</a>
-                                            </div>
-                                            <div id="collapse215" class="collapse" data-parent="#accordion1">
-                                                <div class="card-body">
-                                                    <br> <br> <img class="img-fluid" src="Front-end/file_design-img/km-tkg.jpg" alt="Chania" width="600" height="350"> <br>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card">
-                                            <div class="card-header">
-                                                <a class="collapsed card-link" data-toggle="collapse" href="#collapse211">Trang quản lý</a>
-                                            </div>
-                                            <div id="collapse211" class="collapse" data-parent="#accordion1">
-                                                <div class="card-body">
-                                                    <br> <br> <img class="img-fluid" src="Front-end/file_design-img/tql-tkg.jpg" alt="Chania" width="600" height="350"> <br>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card">
-                                            <div class="card-header">
-                                                <a class="collapsed card-link" data-toggle="collapse" href="#collapse218">Trang đặt sân nhanh</a>
-                                            </div>
-                                            <div id="collapse218" class="collapse" data-parent="#accordion1">
-                                                <div class="card-body">
-                                                    <br> <br> <img class="img-fluid" src="Front-end/file_design-img/dsn-tkg.jpg" alt="Chania" width="600" height="350"> <br>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card">
-                                            <div class="card-header">
-                                                <a class="collapsed card-link" data-toggle="collapse" href="#collapse219">Trang đặt sân trực tuyến</a>
-                                            </div>
-                                            <div id="collapse219" class="collapse" data-parent="#accordion1">
-                                                <div class="card-body">
-                                                    <br> <br> <img class="img-fluid" src="Front-end/file_design-img/dstt-tkg.jpg" alt="Chania" width="600" height="350"> <br>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card">
-                                            <div class="card-header">
-                                                <a class="collapsed card-link" data-toggle="collapse" href="#collapse221">Trang mời đội giao lưu</a>
-                                            </div>
-                                            <div id="collapse221" class="collapse" data-parent="#accordion1">
-                                                <div class="card-body">
-                                                    <br> <br> <img class="img-fluid" src="Front-end/file_design-img/mdgl-tkg.jpg" alt="Chania" width="600" height="350"> <br>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card">
-                                            <div class="card-header">
-                                                <a class="collapsed card-link" data-toggle="collapse" href="#collapse222">Trang thống kê</a>
-                                            </div>
-                                            <div id="collapse222" class="collapse" data-parent="#accordion1">
-                                                <div class="card-body">
-                                                    <br> <br> <img class="img-fluid" src="Front-end/file_design-img/ttk-tkg.jpg" alt="Chania" width="600" height="350"> <br>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card">
-                                            <div class="card-header">
-                                                <a class="collapsed card-link" data-toggle="collapse" href="#collapse223">Trang error</a>
-                                            </div>
-                                            <div id="collapse223" class="collapse" data-parent="#accordion1">
-                                                <div class="card-body">
-                                                    <br> <br> <img class="img-fluid" src="Front-end/file_design-img/error-tkg.jpg" alt="Chania" width="600" height="350"> <br>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header">
-                                <a class="card-link" data-toggle="collapse" href="#collapse1">
-                                    Chức năng đăng ký, đăng nhập, quên mật khẩu</a>
-                            </div>
-                            <div id="collapse1" class="collapse show" data-parent="#accordion">
-                                <div class="card-body">
-                                    <br>
-                                    <p style="font-weight: bold;">- Paint.net</p>
-                                    <br> <img class="img-fluid" src="Front-end/file_design-img/dangky.png" alt="Chania" width="500" height="350"> 
-                                        <img class="img-fluid" src="Front-end/file_design-img/dangnhap.png" alt="Chania" width="500" height="350">
-                                        <img class="img-fluid" src="Front-end/file_design-img/quenmatkhau.png" alt="Chania" width="500" height="350" style="margin-top: 3px;margin-left: 100px;">
-                                        <a href="Front-end/file_design-img/dk-dn-qmk.rar" download=""><button type="button" class="btn btn-secondary" style="height: 45px; background: #0099CC;margin-left: 100px;">
-                                            <i class="fa fa-cloud-download"></i> Tải về file thiết kế
-                                        </button></a>
-                                        
-                                        <br>
-                                        
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header">
-                                <a class="card-link" data-toggle="collapse" href="#collapse2">
-                                    Chức năng khuyễn mãi</a>
-                            </div>
-                            <div id="collapse2" class="collapse" data-parent="#accordion">
-                                <div class="card-body">
-                                    <br>
-                                    <p style="font-weight: bold;">- Paint.net</p>
-                                    <br> <img class="img-fluid" src="Front-end/file_design-img/khuyenmai.png" alt="Chania" width="600" height="350">
-                                        <a href="Front-end/file_design-img/khuyenmai.rar" download=""><button type="button" class="btn btn-secondary" style="height: 45px; background: #0099CC;margin-left: 150px;">
-                                            <i class="fa fa-cloud-download"></i> Tải về file thiết kế
-                                        </button></a>
-                                         <br>
-                                        
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header">
-                                <a class="card-link" data-toggle="collapse" href="#collapse3">
-                                    Chức năng cập nhật tin tức</a>
-                            </div>
-                            <div id="collapse3" class="collapse" data-parent="#accordion">
-                                <div class="card-body">
-                                    <br>
-                                    <p style="font-weight: bold;">- Paint.net</p>
-                                    <br> <img class="img-fluid" src="Front-end/file_design-img/tintuc.png" alt="Chania" width="600" height="350">
-                                        <a href="Front-end/file_design-img/tintuc.rar" download=""><button type="button" class="btn btn-secondary" style="height: 45px; background: #0099CC;margin-left: 150px;">
-                                            <i class="fa fa-cloud-download"></i> Tải về file thiết kế
-                                        </button></a>
-                                         <br>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header">
-                                <a class="card-link" data-toggle="collapse" href="#collapse4">
-                                    Chức năng review khách hàng</a>
-                            </div>
-                            <div id="collapse4" class="collapse" data-parent="#accordion">
-                                <div class="card-body">
-                                    <br>
-                                    <p style="font-weight: bold;">- Paint.net</p>
-                                    <br> <img class="img-fluid" src="Front-end/file_design-img/khachhang.png" alt="Chania" width="600" height="350"> <a href="Front-end/file_design-img/khachhang.rar" download=""><button type="button" class="btn btn-secondary" style="height: 45px; background: #0099CC;margin-left: 150px;">
-                                            <i class="fa fa-cloud-download"></i> Tải về file thiết kế
-                                        </button></a><br>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header">
-                                <a class="card-link" data-toggle="collapse" href="#collapse5">
-                                    Chức năng contact</a>
-                            </div>
-                            <div id="collapse5" class="collapse" data-parent="#accordion">
-                                <div class="card-body">
-                                    <br>
-                                    <p style="font-weight: bold;">- Paint.net</p>
-                                    <br> <img class="img-fluid" src="Front-end/file_design-img/lienhe.png" alt="Chania" width="600" height="350"> 
-                                        <a href="Front-end/file_design-img/lienhe.rar" download=""><button type="button" class="btn btn-secondary" style="height: 45px; background: #0099CC;margin-left: 150px;">
-                                            <i class="fa fa-cloud-download"></i> Tải về file thiết kế
-                                        </button></a>
-                                        <br>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header">
-                                <a class="card-link" data-toggle="collapse" href="#collapse6">
-                                    Chức năng đặt sân nhanh</a>
-                            </div>
-                            <div id="collapse6" class="collapse" data-parent="#accordion">
-                                <div class="card-body">
-                                    <br>
-                                    <p style="font-weight: bold;">- Paint.net</p>
-                                    <br> <img class="img-fluid" src="Front-end/file_design-img/datsannhanh.png" alt="Chania" width="600" height="350">
-                                        <a href="Front-end/file_design-img/datsannhanh.rar" download=""><button type="button" class="btn btn-secondary" style="height: 45px; background: #0099CC;margin-left: 150px;">
-                                            <i class="fa fa-cloud-download"></i> Tải về file thiết kế
-                                        </button></a>
-                                         <br>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header">
-                                <a class="card-link" data-toggle="collapse" href="#collapse7">
-                                    Chức năng đặt sân trực tuyến</a>
-                            </div>
-                            <div id="collapse7" class="collapse" data-parent="#accordion">
-                                <div class="card-body">
-                                    <br>
-                                    <p style="font-weight: bold;">- Paint.net</p>
-                                    <br> <img class="img-fluid" src="Front-end/file_design-img/dstt.png" alt="Chania" width="600" height="350">
-                                        <a href="Front-end/file_design-img/dstt.rar" download=""><button type="button" class="btn btn-secondary" style="height: 45px; background: #0099CC;margin-left: 150px;">
-                                            <i class="fa fa-cloud-download"></i> Tải về file thiết kế
-                                        </button></a>
-                                         <br>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header">
-                                <a class="card-link" data-toggle="collapse" href="#collapse8">
-                                    Chức năng đội đang chờ</a>
-                            </div>
-                            <div id="collapse8" class="collapse" data-parent="#accordion">
-                                <div class="card-body">
-                                    <br>
-                                    <p style="font-weight: bold;">- Paint.net</p>
-                                    <br> <img class="img-fluid" src="Front-end/file_design-img/ddc.png" alt="Chania" width="600" height="350">
-                                        <a href="Front-end/file_design-img/ddc.rar" download=""><button type="button" class="btn btn-secondary" style="height: 45px; background: #0099CC;margin-left: 150px;">
-                                            <i class="fa fa-cloud-download"></i> Tải về file thiết kế
-                                        </button></a>
-                                         <br>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header">
-                                <a class="card-link" data-toggle="collapse" href="#collapse9">
-                                    Chức năng mời đội giao lưu</a>
-                            </div>
-                            <div id="collapse9" class="collapse" data-parent="#accordion">
-                                <div class="card-body">
-                                    <br>
-                                    <p style="font-weight: bold;">- Paint.net</p>
-                                    <br> <img class="img-fluid" src="Front-end/file_design-img/mdgl.png" alt="Chania" width="600" height="350"> 
-                                        <a href="Front-end/file_design-img/mdgl.rar" download=""><button type="button" class="btn btn-secondary" style="height: 45px; background: #0099CC;margin-left: 150px;">
-                                            <i class="fa fa-cloud-download"></i> Tải về file thiết kế
-                                        </button></a>
-                                        <br>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header">
-                                <a class="card-link" data-toggle="collapse" href="#collapse10">
-                                    Chức năng danh sách đội bóng</a>
-                            </div>
-                            <div id="collapse10" class="collapse" data-parent="#accordion">
-                                <div class="card-body">
-                                    <br>
-                                    <p style="font-weight: bold;">- Paint.net</p>
-                                    <br> <img class="img-fluid" src="Front-end/file_design-img/dsdb.png" alt="Chania" width="600" height="350">
-                                        <a href="Front-end/file_design-img/dsdb.rar" download=""><button type="button" class="btn btn-secondary" style="height: 45px; background: #0099CC;margin-left: 150px;">
-                                            <i class="fa fa-cloud-download"></i> Tải về file thiết kế
-                                        </button></a>
-                                         <br>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header">
-                                <a class="collapsed card-link" data-toggle="collapse" href="#collapse17">Trang quản lý </a>
-                            </div>
-                            <div id="collapse17" class="collapse" data-parent="#accordion1">
-                                <div class="card-body">
-                                    <br> <br> <img class="img-fluid" src="Front-end/file_design-img/quantri.png" alt="Chania" width="600" height="350">
-                                        <a href="Front-end/file_design-img/quantri.rar" download=""><button type="button" class="btn btn-secondary" style="height: 45px; background: #0099CC;margin-left: 150px;">
-                                            <i class="fa fa-cloud-download"></i> Tải về file thiết kế
-                                        </button></a>
-                                         <br>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header">
-                                <a class="collapsed card-link" data-toggle="collapse" href="#collapse11">Chức năng thống kê số lương đặt sân nhanh</a>
-                            </div>
-                            <div id="collapse11" class="collapse" data-parent="#accordion1">
-                                <div class="card-body">
-                                    <br> <br> <img class="img-fluid" src="Front-end/file_design-img/tk-datsannhanh.png" alt="Chania" width="600" height="350">
-                                        <a href="Front-end/file_design-img/tk-datsannhanh.rar" download=""><button type="button" class="btn btn-secondary" style="height: 45px; background: #0099CC;margin-left: 150px;">
-                                            <i class="fa fa-cloud-download"></i> Tải về file thiết kế
-                                        </button></a>
-                                         <br>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header">
-                                <a class="collapsed card-link" data-toggle="collapse" href="#collapse12">Chức năng thống kê số lương đặt sân trực
-                                    tuyến</a>
-                            </div>
-                            <div id="collapse12" class="collapse" data-parent="#accordion1">
-                                <div class="card-body">
-                                    <br> <br> <img class="img-fluid" src="Front-end/file_design-img/tk-datsannhanh.png" alt="Chania" width="600" height="350">
-                                        <a href="Front-end/file_design-img/tk-datsannhanh.rar" download=""><button type="button" class="btn btn-secondary" style="height: 45px; background: #0099CC;margin-left: 150px;">
-                                            <i class="fa fa-cloud-download"></i> Tải về file thiết kế
-                                        </button></a>
-                                         <br>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header">
-                                <a class="collapsed card-link" data-toggle="collapse" href="#collapse13">Chức năng thống kê số lương người dùng</a>
-                            </div>
-                            <div id="collapse13" class="collapse" data-parent="#accordion1">
-                                <div class="card-body">
-                                    <br> <br> <img class="img-fluid" src="Front-end/file_design-img/tk-slnguoidung.png" alt="Chania" width="600" height="350">
-                                        <a href="Front-end/file_design-img/tk-slnguoidung.rar" download=""><button type="button" class="btn btn-secondary" style="height: 45px; background: #0099CC;margin-left: 150px;">
-                                            <i class="fa fa-cloud-download"></i> Tải về file thiết kế
-                                        </button></a>
-                                         <br>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header">
-                                <a class="collapsed card-link" data-toggle="collapse" href="#collapse14">Chức năng thống kê doanh thu</a>
-                            </div>
-                            <div id="collapse14" class="collapse" data-parent="#accordion1">
-                                <div class="card-body">
-                                    <br> <br> <img class="img-fluid" src="Front-end/file_design-img/tk-doanhthu.png" alt="Chania" width="600" height="350">
-                                        <a href="Front-end/file_design-img/tk-doanhthu.rar" download=""><button type="button" class="btn btn-secondary" style="height: 45px; background: #0099CC;margin-left: 150px;">
-                                            <i class="fa fa-cloud-download"></i> Tải về file thiết kế
-                                        </button></a>
-                                         <br>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header">
-                                <a class="collapsed card-link" data-toggle="collapse" href="#collapse15">Chức năng thống kê số lượng sân bóng</a>
-                            </div>
-                            <div id="collapse15" class="collapse" data-parent="#accordion1">
-                                <div class="card-body">
-                                    <br> <br> <img class="img-fluid" src="Front-end/file_design-img/tk-dsdb.png" alt="Chania" width="600" height="350">
-                                        <a href="Front-end/file_design-img/tk-dsdb.rar" download=""><button type="button" class="btn btn-secondary" style="height: 45px; background: #0099CC;margin-left: 150px;">
-                                            <i class="fa fa-cloud-download"></i> Tải về file thiết kế
-                                        </button></a>
-                                         <br>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header">
-                                <a class="collapsed card-link" data-toggle="collapse" href="#collapse16">Error </a>
-                            </div>
-                            <div id="collapse16" class="collapse" data-parent="#accordion1">
-                                <div class="card-body">
-                                    <br> <br> <img class="img-fluid" src="Front-end/file_design-img/trangloi.png" alt="Chania" width="600" height="350">
-                                        <a href="Front-end/file_design-img/trangloi.rar" download=""><button type="button" class="btn btn-secondary" style="height: 45px; background: #0099CC;margin-left: 150px;">
-                                            <i class="fa fa-cloud-download"></i> Tải về file thiết kế
-                                        </button></a>
-                                         <br>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div role="tabpanel" class="tab-pane" id="week3">
-                    <div class="row d-flex justify-content-center">
-                        <div class="menu-content pb-10 col-lg-8" style="margin-top: -20px;">
-                            <div class="title text-center">
-                                <h1 class="mb-10">Implementation</h1>
-                                <p>Work day to day for success.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="accordion2">
-                        <div class="card">
-                            <div class="card-header">
-                                <a class="collapsed card-link" data-toggle="collapse" href="#collapse311">Trang người dùng</a>
-                            </div>
-                            <div id="collapse311" class="collapse show" data-parent="#accordion2">
-                                <div class="card-body">
-                                    <a href="https://datsanbongdaonline.azurewebsites.net" target="_blank"><button type="button" class="btn btn-primary" style="background: lightblue;border: 1px solid lightblue;color: black;">
-                                            <i class="fa fa-caret-right"></i> Click để chuyển đến trang
-                                            kết quả
-                                        </button></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header">
-                                <a class="collapsed card-link" data-toggle="collapse" href="#collapse312">Trang quản trị</a>
-                            </div>
-                            <div id="collapse312" class="collapse show" data-parent="#accordion2">
-                                <div class="card-body">
-                                    <a href="https://datsanbongdaonline.azurewebsites.net/BackEnd/homeAdmin.html" target="_blank"><button type="button" class="btn btn-primary" style="background: lightblue;border: 1px solid lightblue;color: black;">
-                                            <i class="fa fa-caret-right"></i> Click để chuyển đến trang
-                                            kết quả
-                                        </button></a>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="card">
-                            <div class="card-header">
-                                <a class="collapsed card-link" data-toggle="collapse" href="#collapse313">Tiêu chí đạt được trong quá trình làm project</a>
-                            </div>
-                            <div id="collapse313" class="collapse show" data-parent="#accordion2">
-                                <div class="card-body">
-                                    <p style="color: black">
-                                    1. Giao diện gần gũi với hiện thực đời sống.<br>
-                                    2. Cho người dùng sự kiểm soát và tự do.<br>
-                                    3. Đảm bảo các nguyên tắc thiết kế (Thẩm mỹ, gợi lên nội dung, người dùng ít tốn sức, đồng bộ ...).<br>
-                                    4. Đề cao sự thống nhất.<br>
-                                    5. Hạn chế lỗi.<br>
-                                    6. Cung cấp sự linh hoạt cho người dùng.<br>
-                                    7. Giảm tải những gì người dùng cần phải nhớ.<br>
-                                    8. Giúp người xác đinh và khắc phục sau khi lỗi xãy ra (trang lỗi).<br>
-                                    9. Hoàn thành 100% và vượt tiến độ project.<br>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                  </div>
-
-                </div>
-            </div>
-        </div>
-    </section>    
+								
+							</table>
 </div>
+						</div>				   
+    </div>
+            
 
-  <footer>
+         
+    </section>
+
+
+
+
+    
+    <footer>
         <div class="container">
             <div class="row">
                 <div class="col-md-4 col-sm-12">
@@ -751,10 +140,10 @@ http://www.templatemo.com/tm-506-tinker
                     <div class="connect-us">
                         <h4>Get Social with us</h4>
                         <ul>
-                           <a href="#"><i class="fa fa-twitter"></i></a>
+                         <a href="#"><i class="fa fa-twitter"></i></a>
                            <a href="#"><i class="fa fa-facebook"></i></a>
                            <a href="#"><i class="fa fa-youtube"></i></a>     
-						    <a href="#"><i class="fa fa-google"></i></a>           
+						    <a href="#"><i class="fa fa-google"></i></a>                
                         </ul>
                     </div>
                 </div>
@@ -807,5 +196,24 @@ http://www.templatemo.com/tm-506-tinker
         };
     }
     </script>
+	
+<script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
 </body>
 </html>
