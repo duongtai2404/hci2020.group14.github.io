@@ -130,6 +130,10 @@ p {
 	letter-spacing: 0.5px;
 }
 
+.navbar-nav .active{
+	color: red;
+}
+
 .navbar-nav>li {
 	margin-left: 45px;
 }
@@ -553,6 +557,7 @@ line-height : 20px;
 .link-groupdiary{
 	font-size: 21px;
 }
+
 
 .clearfix:after {
   content:"";
